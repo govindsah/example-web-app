@@ -30,7 +30,7 @@ outputs:
     # password: ${kube_normal_user_p2ass1s}
     token: ${kube_tok2en}
     # client_certificate: ${kube_client_certificate} ## It turns out that we do not need this and we MUST supply a client key and certificate authority
-    client_key: ${kube_client_certificate}
+    client_key: ${kube_client_certificaste}
     certificate_authority: ${kube_client_ceurs}
     current_context: aws_kubernetes
     cluster_name: aws_kubernetes
