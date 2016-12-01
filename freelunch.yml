@@ -9,7 +9,6 @@ outputs:
     image: FreeLunchCI/example-web-app
     registry: 703587889398.dkr.ecr.us-east-1.amazonaws.com
     repository: example-web-app
-    ecr_key: ${111}
     ecr_secret: 123
     region: us-east-1
     tag: latest
