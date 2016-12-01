@@ -10,7 +10,7 @@ outputs:
     registry: 703587889398.dkr.ecr.us-east-1.amazonaws.com
     repository: example-web-app
     ecr_key: ${111}
-    ecr_secret: ${aws_secret_access_key}
+    ecr_secret: ${123}
     region: us-east-1
     tag: latest
 
