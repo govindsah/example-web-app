@@ -14,6 +14,7 @@ outputs:
     region: us-east-1
     tag: latest
     test: ${mytest}
+    test2: ${mytest2}
 
   - type: kube
     # currently there are two options for defining your kube auth info; config and manual:
